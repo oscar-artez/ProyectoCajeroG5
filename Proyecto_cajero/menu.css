@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serifsss;
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+}
+
+.menu-container{
+    background-color: rgb(150, 230, 161);
+    margin: 30px;
+    width: 400px;
+}
+
+.button{
+    width: 150px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.entrada{
+    margin-top: 15px;
+    width: 100px;
+}
+
+

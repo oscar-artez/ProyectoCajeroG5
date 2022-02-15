@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Banco BNG</title>
+    <link rel="stylesheet" href="./menu.css">
+</head>
+<body>
+    <h1>Bienvenido a tu banca</h1>
+    <main> 
+        <div class="main-frame">
+            <h2>Selecciona la operación que quieras realizar el día</h2>
+
+            <div class="menu">
+               
+                <div class="menu-container"> 
+                    <label>Consulta tu saldo:  </label> 
+                    <button  class="button" id="Nuevosaldo"> Consultar</button>
+                    <p> Tu saldo es: <label id="new-saldo"></label> </p>    
+                </div>
+             
+                <div class="menu-container"> 
+                <label for="deposito"> Hacer un deposito: </label>
+                <button class="button" id="btndeposito"> Depositar</button>
+                <input id="deposit-cant" class="entrada" type="text" >
+                <p > Tu nuevo saldo es: <label id="new-deposito"></label></p>
+                </div>
+                
+               <div class="menu-container">
+                <label for="">Retira tu dinero: </label>
+                <button  class="button" id="retirar">Retirar</button>
+                <input id="retiro-cant" class="entrada" type="text" >
+                <p> Tu nuevo saldo es: <label id="new-draw"></label></p>
+               </div>
+               
+            </div>
+           
+
+
+
+        </div>
+    
+    <script src="./main.js"></script>
+    </main>
+</body>
+</html>
